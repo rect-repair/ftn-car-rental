@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="public/FTN_logo.png">
+  <title>FTN — Car Rental</title>
+  <style>
+    /* 1996 Dodge-style: white page, tables for layout, no grey frame */
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 14px;
+      line-height: 1.4;
+      color: #000;
+      background: #fff;
+    }
+    /* Dodge-style: content centered, limited width, white space on both sides */
+    .wrap {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .wrap table { border: none; border-collapse: collapse; }
+    .wrap td { border: none; }
+    a { color: #0000cc; text-decoration: underline; }
+    a:visited { color: #551a8b; }
+    a:hover { color: #cc0000; }
+
+    .logo-placeholder {
+      display: inline-block;
+      width: 180px;
+      height: 60px;
+      background: #fff;
+      border: 1px solid #ccc;
+      line-height: 60px;
+      color: #999;
+      font-size: 12px;
+    }
+    .dot { display: inline-block; width: 4px; height: 4px; background: #000; margin: 0 4px; vertical-align: middle; }
+    td a { margin: 0 6px; }
+    h2 { font-size: 16px; margin: 1em 0 0.5em 0; }
+    .footer { font-size: 11px; color: #333; margin-top: 2em; }
+    .footer p { margin: 4px 0; }
+    .vehicles-table { border: none !important; }
+    .vehicles-table th, .vehicles-table td { border: none; padding: 2px 8px 2px 0; vertical-align: top; }
+    /* Dodge-style: main title/hero image centered in its own row */
+    .title-image { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+  <table width="100%" cellspacing="0" cellpadding="12" border="0">
+    <tr>
+      <td align="center">
+        <img src="public/title-image.png" alt="" class="title-image">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <span class="dot"></span>
+        <a href="#rental">CARS</a>
+        <span class="dot"></span>
+        <a href="#vehicles">TRUCKS</a>
+        <span class="dot"></span>
+        <a href="#vehicles">SUVS</a>
+        <span class="dot"></span>
+        <a href="#locations">LOCATIONS</a>
+        <span class="dot"></span>
+        <a href="#vehicles">RATES</a>
+        <span class="dot"></span>
+        <a href="#reserve">RESERVE</a>
+        <span class="dot"></span>
+        <a href="#contact">CONTACT</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="#about">About FTN</a>
+        <a href="#vehicles">Vehicle Types</a>
+        <a href="#sitemap">Site Map</a>
+        <span class="dot"></span>
+        <a href="#news">News</a>
+        <a href="#locations">Locate a Branch</a>
+      </td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+      <td id="rental">
+        <h2>Car Rental</h2>
+        <p>Rent a car from FTN at affordable rates. Pick up and return at the same location or choose a different return location for one-way rentals. We have branches at major airports and in city centers.</p>
+        <p>Book your rental in advance or contact your nearest FTN branch for availability. Minimum age to rent is 21. Valid driver's license and credit card required.</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="vehicles">
+        <h2>Vehicle Types</h2>
+        <table class="vehicles-table" width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tr><th align="left">Category</th><th align="left">Description</th></tr>
+          <tr><td>Economy</td><td>Compact cars for city driving and low fuel costs.</td></tr>
+          <tr><td>Midsize / Sedan</td><td>Comfortable cars for everyday travel and business.</td></tr>
+          <tr><td>SUV</td><td>Space for passengers and luggage, ideal for families and trips.</td></tr>
+          <tr><td>Truck</td><td>Pickup trucks for cargo and towing.</td></tr>
+          <tr><td>Luxury</td><td>Premium vehicles for special occasions.</td></tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td id="locations">
+        <h2>Pickup &amp; Return</h2>
+        <p>Choose your pickup date and return date when you reserve. You can return your vehicle to the same branch or to a different FTN location — additional fees may apply for one-way rentals.</p>
+        <p><b>Locate a branch:</b> FTN has locations at major airports and in cities. Contact us or visit your nearest branch for current hours and availability.</p>
+      </td>
+    </tr>
+    <tr>
+      <td id="reserve">
+        <h2>Reserve a Car</h2>
+        <p>To reserve a car, contact your nearest FTN branch by phone or visit in person. Provide your pickup and return dates, location, and vehicle preference.</p>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td id="contact">
+        <h2>Contact FTN</h2>
+        <p>For reservations and enquiries, please contact your nearest FTN branch.</p>
+      </td>
+    </tr> -->
+    <tr>
+      <td class="footer">
+        <p><b>About this Web site:</b> This FTN Web site provides product and promotional information about FTN car rental. The information contained in this site is (C)Copyright and may not be distributed, modified, reused, reposted, or otherwise used outside the scope of normal Web browsing without the express permission of FTN. Rates and availability may be subject to change. See your FTN branch for complete details and latest information.</p>
+        <p><i>© Copyright 2025 FTN. All Rights Reserved.</i></p>
+      </td>
+    </tr>
+  </table>
+  </div>
+</body>
+</html>
